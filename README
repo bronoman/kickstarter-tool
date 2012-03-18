@@ -3,6 +3,7 @@ Kickstarter Tool
 Version: 0.2
 Author: bronoman
 Date: 18-March-2012
+Repository: https://github.com/bronoman/kickstarter-tool
 Environment: 
 * Windows7
 * JDK 1.7.0
@@ -34,4 +35,4 @@ or
 Kickstart [ENTER]
  - in this case the 6 parameters will have to be entered
 
-please post any bugs or suggestions for improvement in github 
+please post any bugs or suggestions for improvement by creating an issue in github 
