@@ -18,7 +18,7 @@ This is a simple command line tool to accomplish a few things in the correct seq
 3) create a basic documentation structure (using GDOC)
 4) build and run the app
 
-Start from directory which is accessible to grails
+Note: Start from directory which is accessible to grails, place all files in this directory.
 
 Parameters required:
 parameter %1 is the drive (e.g. c:)
