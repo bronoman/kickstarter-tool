@@ -1,19 +1,20 @@
 Kickstarter Tool
 
-Version: 0.1
+Version: 0.2
 Author: bronoman
-Date: 15-Feb-2012
+Date: 18-March-2012
 Environment: 
 * Windows7
 * JDK 1.7.0
-* Grails 2.0.0
+* Grails 2.0.1
 * KickstartforBootstrap 0.5.5
 
 Description
 This is a simple command line tool to accomplish a few things in the correct sequence:
 1) build a new grails app with KickstartforBootstrap Plugin
 2) include 3 domain classes for experimental purposes
-3) build and run the app
+3) create a basic documentation structure (using GDOC)
+4) build and run the app
 
 Start from directory which is accessible to grails
 
