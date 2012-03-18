@@ -1,0 +1,10 @@
+introduction: 
+  title: Introduction
+blocks: 
+  title: Building Blocks
+  domain1: 
+    title: Using Domain1
+  domain2:
+    title: Using Domain2
+  domain3:
+    title: Using Domain3

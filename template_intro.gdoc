@@ -1,0 +1,42 @@
+{note}
+Please note that this documentation was auto-generated and may not be reviewed or released.
+{note}
+
+h1. Introduction
+
+h2. Overview
+This application is auto-generated to fulfill a certain purpose intended by the author.
+
+h2. Environment
+You need access to some computing device like....
+* a PC in an internet café
+* a smart phone
+* a personal computer
+* a car with built-in internet access
+* a notebook
+* a tablet
+* ...
+
+h2. Purpose
+The purpose of this application is to bring a new work environment to you:
+* fast
+* simple
+* location independent
+* device independent
+* language bridging
+* ...and much more!
+
+h2. Additional Information
+...provide further information here...
+
+h3. Links
+Here are some outgoing links to additional sources/information:
+* [SpringSource|http://www.springsource.com/]
+* [Grails Framework|http://www.grails.org/]
+* [Google|http://www.google.com/]
+
+h3. References
+This documentation is also referenced here (e.g. incoming links from additional relevant sources/information):
+* Ref1
+* Ref2
+* Ref3

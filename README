@@ -1,0 +1,39 @@
+Kickstarter Tool
+
+Version: 0.2
+Author: bronoman
+Date: 18-March-2012
+Repository: https://github.com/bronoman/kickstarter-tool
+
+Environment: 
+* Windows7
+* JDK 1.7.0
+* Grails 2.0.1 - see http://www.grails.org
+* KickstartforBootstrap 0.5.5 - see http://grails.org/plugin/kickstart-with-bootstrap
+
+Description
+This is a simple command line tool to accomplish a few things in the correct sequence:
+1) build a new grails app with KickstartforBootstrap Plugin
+2) include 3 domain classes for experimental purposes
+3) create a basic documentation structure (using GDOC)
+4) build and run the app
+
+Start from directory which is accessible to grails
+
+Parameters required:
+parameter %1 is the drive (e.g. c:)
+parameter %2 is the path (e.g. grails\workspace\)
+parameter %3 is the name of the app 
+parameter %4 is the name of the 1st domain class
+parameter %5 is the name of the 2nd domain class
+parameter %6 is the name of the 3rd domain class
+
+If parameters are not entered as part of command, they will be obtained by the tool
+
+Example:
+Kickstart e: grails\workspace test1 Bronze Silver Gold
+or
+Kickstart [ENTER]
+ - in this case the 6 parameters will have to be entered
+
+please post any bugs or suggestions here: https://github.com/bronoman/kickstarter-tool/issues/new

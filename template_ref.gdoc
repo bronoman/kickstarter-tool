@@ -1,0 +1,41 @@
+{note}
+Please note that this reference was auto-generated and may not be reviewed or released.
+{note}
+
+h1. Name of Area, Domain, Extension etc.
+
+h2. Overview
+...describe the content and application here...
+
+h2. Environment
+...describe the context here, e.g. other required data, services etc...
+
+h2. Purpose
+...describe the purpose here...
+
+h2. Usage
+h3. Typical usage
+...describe how it should normally used here...
+h3. Special usage
+...describe how it should normally used here...
+
+h2. Example
+This is an example of how it should be used:
+# first step
+# second step
+# third step
+
+h2. Additional Information
+...provide further information here...
+
+h3. Links
+Here are some outgoing links to additional sources/information:
+* Link1
+* Link2
+* Link3
+
+h3. References
+This documentation is also referenced here (e.g. incoming links from additional relevant sources/information):
+* Ref1
+* Ref2
+* Ref3
