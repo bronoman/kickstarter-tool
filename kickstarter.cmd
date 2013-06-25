@@ -44,9 +44,9 @@ cd \
 cd %_path%
 call grails create-app %_app%
 cd %_app%
-rem *** remark the next 2 lines to avoid kickstart
+rem *** remove the next 2 lines to avoid kickstart
 call grails install-plugin kickstart-with-bootstrap
-call grails kickstartWithBootstrap
+call grails kickstart
 call grails create-domain-class %_dom1%
 call grails create-domain-class %_dom2%
 call grails create-domain-class %_dom3%
@@ -114,6 +114,12 @@ copy template_ref.gdoc %_app%\src\docs\ref\Domains\sample.gdoc
 copy template_ref.gdoc %_app%\src\docs\ref\Services\sample.gdoc
 copy template_ref.gdoc %_app%\src\docs\ref\Tools\sample.gdoc
 copy template_ref.gdoc %_app%\src\docs\ref\Extensions\sample.gdoc
+rem
+rem to do:
+rem use ant to modify toc here to cater to the actual domain names
+rem
+rem these 3 lines are just here, so something is created!
+rem
 copy template_dom.gdoc %_app%\src\docs\guide\domain1.gdoc
 copy template_dom.gdoc %_app%\src\docs\guide\domain2.gdoc
 copy template_dom.gdoc %_app%\src\docs\guide\domain3.gdoc
@@ -122,10 +128,12 @@ cd %_app%
 call grails doc
 echo.
 echo *************************************************************************************************
-echo documentation...done as well! 
+echo documentation...done as well!
 echo Update your TOC and re-run grails doc - see errors above.
 echo *************************************************************************************************
 call grails stats
+call grails clean
+call grails compile
 echo *************************************************************************************************
 echo now, we'll go ahead and run the app.
 echo.
