@@ -1,15 +1,15 @@
 Kickstarter Tool
 
-Version: 0.2
+Version: 0.3
 Author: bronoman
-Date: 18-March-2012
+Date: 25-June-2013
 Repository: https://github.com/bronoman/kickstarter-tool
 
 Environment: 
 * Windows7
 * JDK 1.7.0
-* Grails 2.0.1 - see http://www.grails.org
-* KickstartforBootstrap 0.5.5 - see http://grails.org/plugin/kickstart-with-bootstrap
+* Grails 2.2.2 - see http://www.grails.org
+* KickstartforBootstrap 0.9.6 - see http://grails.org/plugin/kickstart-with-bootstrap
 
 Description
 This is a simple command line tool to accomplish a few things in the correct sequence:
