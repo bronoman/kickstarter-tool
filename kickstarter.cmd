@@ -1,4 +1,6 @@
 echo off
+echo Kickstart Script 1.0 - version for Kickstart with Bootstrap 1.1.0 and Grails 2.3.5
+echo ************************************************************************************
 rem note: 6 parameters required
 rem parameter %1 is the drive (e.g. c:)
 rem parameter %2 is the path (e.g. grails\workspace\)
@@ -44,9 +46,22 @@ cd \
 cd %_path%
 call grails create-app %_app%
 cd %_app%
-rem *** remove the next 2 lines to avoid kickstart
-call grails install-plugin kickstart-with-bootstrap
+echo.
+echo ********************************************************
+echo please insert the following into BuildConfig.groovy:
+echo compile ":kickstart-with-bootstrap:1.1.0"
+echo after that, come back here and continue
+echo ********************************************************
+echo.
+pause
+:recompile
+call grails compile
 call grails kickstart
+echo.
+echo ********************************************************
+echo creating the desired domain classes:
+echo ********************************************************
+echo.
 call grails create-domain-class %_dom1%
 call grails create-domain-class %_dom2%
 call grails create-domain-class %_dom3%
@@ -142,3 +157,4 @@ echo going to run-app now! Fasten seat belts!
 echo *************************************************************************************************
 echo.
 grails run-app
+pause
